@@ -6,11 +6,9 @@ function App() {
     <>
       <div className="h-screen bg-blue-800">
         {/* Ini untuk tampilan pages/Home.jsx  */}
-        <div className="">
+        <div>
           <Home />
         </div>
-
-        <div>footer</div>
       </div>
     </>
   );
