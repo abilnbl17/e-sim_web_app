@@ -41,5 +41,3 @@ export const Data = [
     despcription: "This is eSIM LTE 4G for Malaysia",
   },
 ];
-
-// console.log(Data, "This is from data.js");
