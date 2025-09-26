@@ -1,10 +1,12 @@
-import Card from "../ui/Card";
+import { Data } from "../../data/data";
+import ProductCard from "../ProductCard";
 
 const Products = () => {
   return (
-    <div className="">
-      This is Products
-      <Card />
+    <div className="flex space-x-4 justify-center rounded-4xl">
+      {Data.map((item) => (
+        <ProductCard key={item.id} product={item} />
+      ))}
     </div>
   );
 };
